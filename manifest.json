@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "jianlong.system-menu",
+  "name": "System Menu Button",
+  "version": "1.0.0",
+  "author": "Jianlong Liu",
+  "license": "MIT",
+  "description": "One-click bar button that opens the Omarchy System menu (power actions).",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "System Menu",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
