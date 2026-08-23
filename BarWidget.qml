@@ -4,7 +4,7 @@ import qs.Ui
 
 BarWidget {
     id: root
-    moduleName: "jianlong.system-menu"
+    moduleName: "omarchy-system-menu"
 
     implicitWidth: button.implicitWidth
     implicitHeight: button.implicitHeight
