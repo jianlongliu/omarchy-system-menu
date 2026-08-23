@@ -15,7 +15,7 @@ that opens the Omarchy System menu page (Lock / Suspend / Logout / Reboot / Shut
 ## Install
 
 ```sh
-omarchy plugin add https://github.com/jianlongliu/jianlong.system-menu.git --enable
+omarchy plugin add https://github.com/jianlongliu/omarchy-power-menu.git --enable
 ```
 
 ## Usage
