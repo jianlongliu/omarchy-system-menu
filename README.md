@@ -18,6 +18,12 @@ that opens the Omarchy System menu page (Lock / Suspend / Logout / Reboot / Shut
 omarchy plugin add https://github.com/jianlongliu/omarchy-system-menu.git --enable
 ```
 
+## Uninstall
+
+```sh
+omarchy plugin remove omarchy-system-menu
+```
+
 ## Usage
 
 Click the power button in the bar. It toggles the Omarchy System menu.
