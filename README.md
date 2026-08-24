@@ -32,7 +32,9 @@ Click the power button in the bar. It toggles the Omarchy System menu.
 
 The button has no size setting of its own; it inherits the bar's standard icon
 slot (`Style.bar.iconSlot` / `iconCanvas` / `iconFont`, 27 / 16 / 13 by
-default), which is why it matches every other bar icon.
+default), which is why it matches every other bar icon. These defaults scale
+with `[font] base-size`, so on a `base-size = 14` setup (fontScale ≈ 1.17)
+they resolve to 32 / 19 / 15.
 
 To make this one button bigger, edit `BarWidget.qml` and override the relevant
 properties on the `BarIconButton`:
@@ -48,7 +50,8 @@ BarIconButton {
 `fontSize` drives the visual glyph size; `slotSize` sets the button's
 clickable width; height stays locked to the bar height and centers
 automatically. Changes reload on save; if they don't, force a reload with
-`omarchy-shell shell rescanPlugins`.
+`omarchy-shell shell rescanPlugins`, or restart the shell with
+`omarchy restart shell` (the latter is the dependable one).
 
 ## Preview
 

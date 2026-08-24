@@ -14,6 +14,7 @@ BarWidget {
         anchors.fill: parent
         bar: root.bar
         text: "󰐥"
+        fontSize: 20
         tooltipText: "System Menu"
         onPressed: function(buttonCode) {
             if (buttonCode === Qt.LeftButton) root.toggleSystemMenu()
